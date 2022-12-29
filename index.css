@@ -1,0 +1,89 @@
+body {
+    background: #f2f2f2;
+  /*   background: #17191e; */
+    font-family: 'Courier Prime';
+    border: none;
+  }
+  
+  div {
+  /*   padding: 25px; */
+  }
+  
+  .header {
+    background: #17191e;
+    box-sizing: border-box;
+    padding: 300px 0px 200px 0px;
+  /*   TODO: change 300px depending on device? */
+  }
+  
+  .w {
+    color:white;
+  }
+  
+  .g {
+    color:green;
+  }
+  
+  h1 {
+    font-family: 'Courier Prime', cursive;
+  /*   font-variant: small-caps; */
+    font-size: 500%;
+    font-stretch: expanded;
+    font-weight: 100;
+  /*   padding-top: 50px; */
+    line-space: 100px;
+    align: center;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  /*   text-align: center; */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    align: right;
+    font-size: 25px;
+    text-decoration:none;
+  }
+  
+  .navtext {
+    padding: 16px 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+     color: grey;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: grey;
+  }
+  
+  .logo{
+  width: 200px;
+  height: 75px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+  padding: 0px 0px;
+  }
+  
+  logo:hover {
+      -webkit-filter: brightness(70%);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+  /*   TODO: check image darken on hover */
+  }
